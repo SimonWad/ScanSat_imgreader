@@ -1,6 +1,9 @@
-import os, cv2
+import os
+import cv2
 import numpy as np
-path = r"C:\Users\Simon\Pictures\SCANsat_Images"
+cwd = os.getcwd()
+path = os.path.join(cwd, "SCANsat_Images")
+
 
 file_list = []
 
