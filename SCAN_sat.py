@@ -11,7 +11,7 @@ for filename in os.listdir(path):
     file_list.append(filename)
 
 file_list[1]
-img = cv2.imread(os.path.join(path, file_list[3]))
+img = cv2.imread(os.path.join(path, file_list[1]))
 params = cv2.SimpleBlobDetector_Params()
 params.filterByArea = True
 params.minArea = 150
